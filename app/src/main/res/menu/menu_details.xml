@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.Details">
+    <item android:id="@+id/share" android:title="Share"
+         app:showAsAction="always"
+        android:icon="@drawable/ic_share_white_24dp"/>
+    <item android:id="@+id/favorite" android:title="Favorite"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_favorite_white_24dp"/>
+    <item android:id="@+id/nightMode" android:title="Night Mode"
+        android:icon="@drawable/ic_brightness_4_white_24dp"
+        app:showAsAction="always">
+
+    </item>
+    <item android:id="@+id/recite"
+        android:label="Recite"
+        android:title="Recite"
+        app:showAsAction="never">
+
+    </item>
+
+
+</menu>
